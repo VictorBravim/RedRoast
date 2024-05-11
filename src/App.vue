@@ -1,19 +1,21 @@
 <template>
   <div>
     <NavBar />
+    <HeroSection />
     <div class="container mx-auto p-4">
-      <p>Conteúdo da página...</p>
     </div>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue';
+import HeroSection from './components/HeroSection.vue';
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    HeroSection
   }
 }
 </script>
