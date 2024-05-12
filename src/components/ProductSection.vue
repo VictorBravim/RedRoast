@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-custom h-screen flex justify-center items-center flex-col py-8">
+    <div class="bg-gray-custom h-full lg:h-screen flex justify-center items-center flex-col py-8">
         <h2 class="text-white text-5xl font-semibold text-center mb-12">Nossos Produtos</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 px-12">
             <div v-for="(product, index) in products" :key="index"
