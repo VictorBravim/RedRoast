@@ -4,8 +4,7 @@
     <HeroSection />
     <CardSection />
     <AboutSection />
-    <div class="container mx-auto p-4">
-    </div>
+    <InfoSection />
   </div>
 </template>
 
@@ -14,6 +13,7 @@ import NavBar from './components/NavBar.vue';
 import HeroSection from './components/HeroSection.vue';
 import CardSection from './components/CardSection.vue';
 import AboutSection from './components/AboutSection.vue';
+import InfoSection from './components/InfoSection.vue';
 
 export default {
   name: 'App',
@@ -22,6 +22,7 @@ export default {
     HeroSection,
     CardSection,
     AboutSection,
+    InfoSection,
   }
 }
 </script>
