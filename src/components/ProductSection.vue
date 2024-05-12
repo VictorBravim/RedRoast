@@ -6,7 +6,7 @@
                 class="flex flex-col justify-center items-center bg-gray-custom2 p-4 px-8 shadow-md">
                 <img :src="product.image" alt="Produto" class="w-full h-full mb-4">
                 <h3 class="text-white text-2xl font-semibold mb-2">{{ product.name }}</h3>
-                <p class="text-gray-600 text-xl mb-4">{{ product.description }}</p>
+                <p class="text-gray-300 text-lg mb-4">{{ product.description }}</p>
                 <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-12">
                     Comprar
                 </button>
