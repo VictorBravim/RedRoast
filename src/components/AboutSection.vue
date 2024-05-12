@@ -13,7 +13,7 @@
                 Aenean commodo dictum dapibus.
             </p>
             <hr class="border-b-2 border-gray-400 mt-4 mr-96" />
-            <button class="border border-red-500 text-white font-bold py-2 px-4 mt-6">
+            <button class="border border-red-600 text-white font-bold py-2 px-4 mt-6">
                 View All
             </button>
         </div>

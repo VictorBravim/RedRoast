@@ -1,12 +1,12 @@
 <template>
-    <div class="container mx-auto py-8">
+    <div class="bg-gray-custom h-screen flex justify-center items-center flex-col py-8">
       <h2 class="text-3xl font-semibold text-center mb-8">Nossos Produtos</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-        <div v-for="(product, index) in products" :key="index" class="bg-white p-4 shadow-md rounded-lg">
+        <div v-for="(product, index) in products" :key="index" class="flex flex-col justify-center items-center bg-gray-custom2 p-4 px-16 shadow-md">
           <img :src="product.image" alt="Produto" class="w-full h-40 object-cover mb-4">
           <h3 class="text-lg font-semibold mb-2">{{ product.name }}</h3>
           <p class="text-gray-600 text-sm mb-4">{{ product.description }}</p>
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4">
             Comprar
           </button>
         </div>

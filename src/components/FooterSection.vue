@@ -1,7 +1,7 @@
 <template>
-    <footer class="bg-gray-800 text-white py-4">
+    <footer class="bg-gray-custom2 text-white py-8">
       <div class="container mx-auto text-center">
-        <p>&copy; 2024 Seu Site - Todos os direitos reservados</p>
+        <p>&copy; 2024 RedRoast - Todos os direitos reservados</p>
       </div>
     </footer>
   </template>
