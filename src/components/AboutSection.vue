@@ -1,19 +1,21 @@
 <template>
-    <div className="bg-gray-custom w-full h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between lg:mt-24">
-        <div className="w-full lg:w-1/2 pl-0 lg:pl-8 flex justify-center">
-            <img src="@/assets/cortes.png" alt="Imagem de Missão" width={500} height={300} />
+    <div
+        class="bg-gray-custom w-full h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between lg:mt-24">
+        <div class="w-full lg:w-1/2 pl-0 lg:pl-8 flex justify-center">
+            <img src="@/assets/banner.png" alt="Imagem de Missão" class="tamanho" />
         </div>
-        <div className="w-full lg:w-1/2 pl-2 lg:pl-8">
-            <h2 className="text-2xl text-white font-bold mb-4">RAPIDSCAN</h2>
-            <p className="text-gray-600 mb-4 pr-0 lg:pr-80">
-                Aprimorar a previsão do tempo na Terra, fornecer a calibração cruzada para todos os satélites
-                internacionais que monitoram os ventos oceânicos e melhorar as estimativas de como os ventos oceânicos
-                mudam ao longo do dia, em todo o mundo.
+        <div class="w-full lg:w-1/2 pl-2 lg:pl-8">
+            <p class="text-red-500 font-bold">About Us</p>
+            <h2 class="text-4xl text-white font-bold mb-4">Sobre Nossas Empresas</h2>
+            <p class="text-gray-400 mb-4 pr-0 lg:pr-80">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt nec nulla facilisis accumsan.
+                Curabitur tempus, nisl quis rhoncus aliquet, enim ligula porta eros, laoreet interdum ex dui vel odio.
+                Aenean commodo dictum dapibus.
             </p>
-            <button className="bg-blue-custom-2 text-white font-bold py-2 px-4 rounded">
+            <hr class="border-b-2 border-gray-400 mt-4 mr-96" />
+            <button class="border border-red-500 text-white font-bold py-2 px-4 mt-6">
                 View All
             </button>
-            <hr className="border-b-2 border-gray-500 mt-4" />
         </div>
     </div>
 </template>
@@ -24,4 +26,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.tamanho {
+    width: 70%;
+}
+</style>
