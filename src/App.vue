@@ -5,6 +5,7 @@
     <CardSection />
     <AboutSection />
     <InfoSection />
+    <ProductSection />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import HeroSection from './components/HeroSection.vue';
 import CardSection from './components/CardSection.vue';
 import AboutSection from './components/AboutSection.vue';
 import InfoSection from './components/InfoSection.vue';
+import ProductSection from './components/ProductSection.vue';
 
 export default {
   name: 'App',
@@ -23,6 +25,7 @@ export default {
     CardSection,
     AboutSection,
     InfoSection,
+    ProductSection,
   }
 }
 </script>
