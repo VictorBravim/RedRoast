@@ -1,7 +1,7 @@
 <template>
-    <div className="bg-gray-custom w-full h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between">
+    <div className="bg-gray-custom w-full h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-between lg:mt-24">
         <div className="w-full lg:w-1/2 pl-0 lg:pl-8 flex justify-center">
-            <Image src={satelite1} alt="Imagem de Missão" width={500} height={300} />
+            <img src="@/assets/cortes.png" alt="Imagem de Missão" width={500} height={300} />
         </div>
         <div className="w-full lg:w-1/2 pl-2 lg:pl-8">
             <h2 className="text-2xl text-white font-bold mb-4">RAPIDSCAN</h2>

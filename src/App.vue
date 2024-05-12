@@ -6,6 +6,7 @@
     <AboutSection />
     <InfoSection />
     <ProductSection />
+    <FooterSection />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import CardSection from './components/CardSection.vue';
 import AboutSection from './components/AboutSection.vue';
 import InfoSection from './components/InfoSection.vue';
 import ProductSection from './components/ProductSection.vue';
+import FooterSection from './components/FooterSection.vue'
 
 export default {
   name: 'App',
@@ -26,6 +28,7 @@ export default {
     AboutSection,
     InfoSection,
     ProductSection,
+    FooterSection
   }
 }
 </script>
