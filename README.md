@@ -15,7 +15,7 @@ This project demonstrates how to build a simple website using Vue.js and integra
 ## 🔧 Installation
 
 1. Clone this repository:
-   
+
 ```
 git clone https://github.com/VictorBravim/RedRoast.git
 ```
