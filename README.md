@@ -32,7 +32,7 @@ cd RedRoast
 npm install
 ``` 
 
-## Project Structure
+## 🛠️ Project Structure
 
 - AboutSection.vue
 - FooterSection.vue
