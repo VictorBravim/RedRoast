@@ -1,6 +1,6 @@
 # 🥩 RedRoast
 
-![199shots_so](https://github.com/VictorBravim/RedRoast/assets/122113588/bda6f923-c330-40ce-bc67-09634a667382)
+![image 13](https://github.com/VictorBravim/RedRoast/assets/122113588/21d289ea-e1b8-4d24-8b81-7ae26e363df7)
 
 ## 🚀 Overview
 
